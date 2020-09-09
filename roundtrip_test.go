@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	msgpack "github.com/knocknote/msgpack"
+	msgpack "github.com/blastrain/msgpack"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -38,13 +38,13 @@ func TestRoundTrip(t *testing.T) {
 		[]string{"uno", "dos", "tres"},
 		stringList{"uno", "dos", "tres"},
 		dummyStructList{
-			{ Message: "uno" },
-			{ Message: "dos" },
-			{ Message: "tres" },
+			{Message: "uno"},
+			{Message: "dos"},
+			{Message: "tres"},
 		},
 		[]*int{&a, &b, &c},
 		time.Now().Round(0),
-		dummyStruct{ Message: "Hello World!" },
+		dummyStruct{Message: "Hello World!"},
 	}
 
 	for _, data := range list {
@@ -62,5 +62,8 @@ func TestRoundTrip(t *testing.T) {
 				return
 			}
 		})
+	}
+}
+})
 	}
 }

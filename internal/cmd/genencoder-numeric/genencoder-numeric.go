@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/knocknote/msgpack/internal/util"
+	"github.com/blastrain/msgpack/internal/util"
 	"github.com/pkg/errors"
 )
 
