@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	msgpack "github.com/knocknote/msgpack"
+	msgpack "github.com/blastrain/msgpack"
 	"github.com/stretchr/testify/assert"
 )
 

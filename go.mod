@@ -1,4 +1,4 @@
-module github.com/knocknote/msgpack
+module github.com/blastrain/msgpack
 
 go 1.12
 

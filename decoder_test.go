@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/knocknote/msgpack"
+	"github.com/blastrain/msgpack"
 	"github.com/stretchr/testify/assert"
 )
 

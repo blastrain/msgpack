@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	msgpack "github.com/knocknote/msgpack"
+	msgpack "github.com/blastrain/msgpack"
 	"github.com/pkg/errors"
 )
 
